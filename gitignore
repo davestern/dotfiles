@@ -1,0 +1,49 @@
+# Rules based on:
+# - http://help.github.com/git-ignore/
+# - https://github.com/github/gitignore/tree/master/Global
+
+# Mac OS X
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Archives/Packages
+*.7z
+*.jar
+*.rar
+*.zip
+*.gz
+*.bzip
+*.xz
+*.lzma
+*.iso
+*.tar
+*.dmg
+*.xpi
+*.gem
+*.egg
+*.deb
+*.rpm
+
+# TextMate
+*.tmproj
+*.tmproject
+tmtags
+
+# Eclipse
+.project
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.elc
+auto-save-list
+tramp
+.\#*
+
+# Org-mode
+.org-id-locations
+*_archive
