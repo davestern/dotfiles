@@ -44,6 +44,9 @@ auto-save-list
 tramp
 .\#*
 
+# Webstorm
+.idea
+
 # Org-mode
 .org-id-locations
 *_archive
