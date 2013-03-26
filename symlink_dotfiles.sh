@@ -15,7 +15,7 @@ DOTFILES_DIRECTORY=$HOME/dotfiles
 ## back it up with a dated version if it's not already a symlink to 
 ## the dotfiles version and make the symlink
 
-FILES=$(ls $DOTFILES_DIRECTORY | grep -v -P '(md|sh|~)$')
+FILES=$(ls $DOTFILES_DIRECTORY | grep --invert-match --perl-regexp '(md|sh|~)$')
 
 for file in $FILES; do
     dotfile=~/.${file}
